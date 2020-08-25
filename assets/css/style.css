@@ -1,0 +1,293 @@
+@import "../css/fonts.css";
+
+html, body, div, span,
+h1, h2, h3, h4, h5, h6, p,
+a, img, i, ul, li, form, label, 
+footer, header, hgroup,
+menu, nav, section {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "Roboto-Regular";
+  font-size: 16px; 
+  background-color: #70BBAC;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+  text-align: center;
+}
+
+.container-fluid {
+  padding: 0; 
+}
+
+header {
+  background-color: white;
+  text-align: center;
+  padding: 20px 0;
+  padding-bottom: 50px; 
+}
+
+footer{
+  background-color: white;
+  text-align: center;
+  padding: 20px 0;
+  padding-bottom: 10px; 
+}
+
+header .input-group input {
+    display: none; 
+}
+
+.logo img{
+    height: 170px;
+}
+
+.logo1 img{
+  height: 90px;
+}
+
+header .nav-fill {
+    max-width: 250px; 
+}
+
+header .nav-fill a {
+    color: black; 
+    border-radius: 3px;
+}
+
+header .nav-fill li:hover a {
+    background-color: #70BBAC;
+    color: #fff;
+    transition: all ease-in-out 0.2s;
+}
+
+header .navbar li.nav-item a.nav-link {
+    font-family: "Montserrat-Bold";
+    color: #000;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem; 
+}
+
+header .col-md-3 {
+    text-align: center;
+    padding: 5px 2.5px !important; 
+}
+
+header .col-md-3.first {
+    padding-left: 15px !important; 
+}
+
+header .col-md-3.last {
+    padding-right: 15px !important; 
+}
+
+header .col-md-3 img {
+    max-height: 227px; 
+}
+
+header .col-md-3 h5 {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+header .bar1, header .bar2, header .bar3 {
+    width: 25px;
+    height: 2px;
+    background-color: #000;
+    margin: 5px 0;
+    transition: 0.4s;
+    display: block;
+    position: relative; 
+}
+
+header .change .bar1 {
+    -webkit-transform: rotate(-42deg) translate(-2px, 6px);
+    transform: rotate(-42deg) translate(-2px, 6px); 
+}
+
+header .change .bar2 {
+    opacity: 0; 
+}
+
+header .change .bar3 {
+    -webkit-transform: rotate(46deg) translate(-4px, -8px);
+    transform: rotate(46deg) translate(-4px, -8px); 
+}
+
+#my-nav .navbar-nav .nav-item .nav-link{
+    border-radius: 3px;
+}
+
+#my-nav .navbar-nav .nav-item .nav-link:hover{
+    background-color: #70BBAC;
+    color: #fff;
+    transition: all ease-in-out 0.2s;
+}
+
+  /* BOTON IR ARRIBA */
+  .ir-arriba {
+    display:none;
+    padding: 5px 10px;
+    background:#024959;
+    font-size:25px;
+    color:#fff;
+    cursor:pointer;
+    position: fixed;
+    bottom:20px;
+    right:20px;
+    border-radius: 3px;
+  }
+  /* --- */
+
+/* About Us Area CSS */
+
+.caviar-about-us-area {
+  overflow-x: hidden;
+}
+
+.about-us-thumbnail {
+  /* box-shadow: 3px 5px 45px rgba(0, 0, 0, 0.15); */
+  position: relative;
+  z-index: 1;
+}
+
+.about-us-thumbnail > img {
+  width: 100%;
+  border-radius: 3px;
+}
+
+.about-us-content p {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #000;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.about-us-content {
+  text-align: justify;
+}
+
+.about-us-content > p {
+  margin-bottom: 0;
+}
+
+.about-us {
+  background-color: #fff;
+}
+
+/* Iconos de Voluntarios */
+
+.single-cool-fact {
+  position: relative;
+  text-align: center;
+  z-index: 1;
+  /* margin-bottom: 10px;  */
+}
+
+.single-cool-fact img {
+    display: block;
+    margin: 0 auto 10px; 
+    max-width: 75px;
+}
+
+  .single-cool-fact h3 {
+    font-size: 48px;
+    margin-bottom: 10px;
+    color: #674A8F;
+    font-weight: 700; 
+}
+  
+  .single-cool-fact h6 {
+    font-size: 18px;
+    margin-bottom: 0; 
+}
+
+/* Cards - Hacemos lo que hacemos */
+.card img{
+  padding-top: 15px;
+  margin: 0 auto;
+  max-width: 100px;
+}
+
+.fab {
+  font-size: 19px;
+}
+
+.derechos {
+  font-size: 13px;
+}
+
+.title-biblio{
+  text-align: center;
+}
+
+.title-biblio img{
+  max-width: 150px;
+}
+
+#titulo1 {
+  font-size: 35px;
+  text-align: center;
+}
+
+.title_funda {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.contenedor_equipo h2 {
+  text-align: center;
+}
+
+.contenedor_equipo {
+  text-align: justify;
+}
+
+.premio_sol {
+  text-align: justify;
+  border-radius: 3px;
+  background-color: white;
+}
+
+#texto-premio {
+  margin: 0 auto;
+  font-size: 18px;
+  text-align: justify;
+}
+
+.carousel {
+  margin: 0 auto;
+  max-width: 750px;
+}
+
+.carousel-inner{
+  border-radius: 5px;
+}
+
+#texto-premio {
+  margin: 0 auto;
+  font-size: 18px;
+  text-align: justify;
+}
+
+@media(max-width: 575.98px){
+  .about-us-thumbnail > img {
+    margin: 0px;
+  }
+}
+
+@media(min-width: 576px) and (max-width: 767.98px){
+  .about-us-thumbnail > img{
+    margin: 0px;
+  }
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundación Sueños y Letras</title>
+    <link rel="shortcut icon" href="assets/images/icon/SyL_icon.ico" type="image/x-icon">
+    <!-- Scripts y Css-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/c7acc02d60.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/style_biblio.css">
+    <script src="assets/js/script.js"></script>
+
+    <!-- <script type='text/javascript'>
+      document.oncontextmenu = function(){return false}
+    </script> -->
+
+    <!-- <script type="text/javascript">
+      $(".books").on("contextmenu", function(e){
+        return false;
+      });
+    </script> -->
+
+    <!-- <script type='text/javascript'>
+      document.onmousedown = disableRightclick;
+      var message = "Lo sentimos, es posible realizar esa acción";
+      function disableRightclick(event){
+        if (event.button ==  2 ) {
+          alert (message);
+          return false;    
+        }
+      }
+    </script> -->
+</head>
+<body>
+    <header class="mt-0 pt-0 pb-0">
+        <div class="bg-cover clearfix pt-3">
+            <div class="logo">
+                <img src="assets/images/logo_SyL.png" alt="">
+            </div>
+            <nav class="nav nav-fill mx-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.facebook.com/Sue%C3%B1os-y-letras-250093805803329/" target="_blank"><i
+                            class="fab fa-facebook-f">acebook</i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.instagram.com/suen_letras/" target="_blank"><i class="fab fa-instagram"> Instagram</i></a>
+                </li>
+            </nav>
+            
+            <div class="ml-0 mr-0 pb-1">
+                <nav class="navbar navbar-expand-md">
+                    <button class="navbar-toggler ml-auto" data-target="#my-nav" data-toggle="collapse"
+                        aria-controls="my-nav" aria-expanded="false" onclick="myFunction(this)"
+                        aria-label="Toggle navigation">
+                        <span class="bar1"></span> <span class="bar2"></span> <span class="bar3"></span>
+                    </button>
+                    <div id="my-nav" class="collapse navbar-collapse">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item">
+                              <a class="nav-link" href="index.html">SOBRE NOSOTROS</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">LECTURA EN LINEA</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">COMPARTIDO EN REDES</a>
+                          </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="container jumbotron" style="padding-bottom: 10px; padding-top: 10px; border-radius: 0px 0px 5px 5px;">
+      <row class="col-12 col-md-12 col-lg-12 col-sm-12">
+        <div class="title-biblio">
+          <h3>¡Bienvenido al área de lectura!</h3><br>
+          <p>Aquí podras encontrar algunos de los libros que tu probablemente ya conoces y otros <br>
+             de los cuales ponemos a tú disposición para que puedas disfrutar del maravilloso mundo de la lectura.</p><br>
+          <img src="assets/images/lectura1.png">
+          <p>¡Disfruta de tu lectura!</p>          
+        </div>
+      </row>
+
+      <div class="books">
+        <row class="col-12" >
+          <h4>100 años de soledad - Gabriel García Márquez</h4>
+        </row>
+        <div class="col-12 libro" style="margin: 0 auto;"><br>
+          <!-- <embed src="assets/files/el_extranjero.pdf" type="application/pdf" width="100%" height="500px"/> -->
+          <embed src="assets/files/el_extranjero.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf" width="100%" height="600px" />
+        </div>
+      </div>
+      
+    </div>
+
+    <footer>
+      <div class="derechos">
+        <p>© Copyright - Todos los derechos reservados</p>
+        <p>Equipo de desarrollo web - Sueños y Letras</p>
+        <br>
+      </div>
+    </footer>
+  </body>
+</html>
